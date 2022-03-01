@@ -7,14 +7,27 @@
 }
 
 body {
+	overflow: hidden;
 	background: coral;
+	height: 100vh;
+	width: 100vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .main {
-	width: 50%;
-	height: 50%;
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	height: 90%;
 	background: v.$white;
+
+	.main_input {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 20%;
+		background: v.$grey;
+	}
 }
