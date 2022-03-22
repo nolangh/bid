@@ -1,33 +1,34 @@
-@use "vars" as v;
-
 * {
-	border: 0;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body {
-	overflow: hidden;
+.top-row {
+	height: 50vh;
 	background: coral;
-	height: 100vh;
-	width: 100vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+	.left-cont {
+		background: lightblue;
+	}
+
+	.right-cont {
+		background: lightyellow;
+	}
 }
 
-.main {
-	display: flex;
-	flex-direction: column;
-	width: 90%;
-	height: 90%;
-	background: v.$white;
+.btm-row {
+	height: 50vh;
+	background: coral;
 
-	.main_input {
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		height: 20%;
-		background: v.$grey;
+	.btm-cont {
+		height: 100vh;
+		width: 100vw;
+
+		.btm-display {
+			background: lightgreen;
+			width: 75vw;
+			margin-top: 10%;
+		}
 	}
 }

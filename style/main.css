@@ -1,48 +1,36 @@
-/* ------------------------------- Base Colors ------------------------------ */
 * {
-  border: 0;
+  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-body {
-  overflow: hidden;
+.top-row {
+  height: 50vh;
   background: coral;
-  height: 100vh;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 90%;
-  height: 90%;
-  background: #f5fbef;
+.top-row .left-cont {
+  background: lightblue;
 }
-.main .main_input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%;
-  height: 20%;
-  background: #61707d;
+
+.top-row .right-cont {
+  background: lightyellow;
 }
+
+.btm-row {
+  height: 50vh;
+  background: coral;
+}
+
+.btm-row .btm-cont {
+  height: 100vh;
+  width: 100vw;
+}
+
+.btm-row .btm-cont .btm-display {
+  background: lightgreen;
+  width: 75vw;
+  margin-top: 10%;
+}
+/*# sourceMappingURL=main.css.map */
