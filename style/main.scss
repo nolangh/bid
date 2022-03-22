@@ -4,15 +4,25 @@
 	box-sizing: border-box;
 }
 
+body {
+	overflow: hidden;
+}
+
 .top-row {
 	height: 50vh;
 	background: coral;
 
 	.left-cont {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		background: lightblue;
 	}
 
 	.right-cont {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		background: lightyellow;
 	}
 }
@@ -22,13 +32,16 @@
 	background: coral;
 
 	.btm-cont {
-		height: 100vh;
-		width: 100vw;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		background: black;
 
 		.btm-display {
-			background: lightgreen;
+			background: white;
 			width: 75vw;
-			margin-top: 10%;
+			height: 100%;
 		}
 	}
 }
