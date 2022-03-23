@@ -42,15 +42,40 @@ body {
 
 		.btm-display {
 			display: flex;
-			flex-direction: column;
+			flex-direction: row;
 			align-items: center;
-			justify-content: center;
+			justify-content: space-evenly;
 			background: white;
 			width: 75%;
 			height: 75%;
+
+			.left-bid-div {
+				display: flex;
+				width: 45%;
+				flex-direction: column;
+				justify-content: center;
+				text-align: right;
+				background: coral;
+
+				.left-bid-h1 {
+					color: lightseagreen;
+					font-size: 2rem;
+				}
+			}
+
+			.right-bid-div {
+				display: flex;
+				width: 45%;
+				flex-direction: column;
+				justify-content: center;
+				text-align: left;
+				background: coral;
+
+				.right-bid-h1 {
+					color: lightseagreen;
+					font-size: 2rem;
+				}
+			}
 		}
-	}
-	.output-h1 {
-		color: black;
 	}
 }

@@ -74,22 +74,60 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   background: white;
   width: 75%;
   height: 75%;
 }
 
-.btm-row .output-h1 {
-  color: black;
+.btm-row .btm-cont .btm-display .left-bid-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: right;
+  background: coral;
+}
+
+.btm-row .btm-cont .btm-display .left-bid-div .left-bid-h1 {
+  color: lightseagreen;
+  font-size: 2rem;
+}
+
+.btm-row .btm-cont .btm-display .right-bid-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  background: coral;
+}
+
+.btm-row .btm-cont .btm-display .right-bid-div .right-bid-h1 {
+  color: lightseagreen;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
