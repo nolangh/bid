@@ -31,6 +31,8 @@ function addRightBid() {
 	const rightBidH1 = document.createElement("h1");
 	rightBidH1.innerText = rightValue.value;
 	rightBidH1.classList.add("right-bid-h1");
+
 	rightBtmDiv.appendChild(rightBidH1);
+
 	rightValue.value = "";
 }
