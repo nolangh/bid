@@ -102,7 +102,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: right;
-  background: coral;
+  background: white;
 }
 
 .btm-row .btm-cont .btm-display .left-bid-div .left-bid-h1 {
@@ -123,7 +123,10 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: left;
-  background: coral;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background: white;
 }
 
 .btm-row .btm-cont .btm-display .right-bid-div .right-bid-h1 {

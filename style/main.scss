@@ -55,7 +55,7 @@ body {
 				flex-direction: column;
 				justify-content: center;
 				text-align: right;
-				background: coral;
+				background: white;
 
 				.left-bid-h1 {
 					color: lightseagreen;
@@ -69,7 +69,8 @@ body {
 				flex-direction: column;
 				justify-content: center;
 				text-align: left;
-				background: coral;
+				align-items: flex-start;
+				background: white;
 
 				.right-bid-h1 {
 					color: lightseagreen;
