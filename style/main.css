@@ -11,7 +11,7 @@ body {
 
 .top-row {
   height: 50vh;
-  background: coral;
+  background: white;
 }
 
 .top-row .left-cont {
@@ -28,7 +28,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: lightblue;
+  background: white;
 }
 
 .top-row .right-cont {
@@ -45,12 +45,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: lightyellow;
+  background: white;
 }
 
 .btm-row {
   height: 50vh;
-  background: coral;
+  background: white;
 }
 
 .btm-row .btm-cont {
@@ -67,7 +67,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: black;
+  background: white;
 }
 
 .btm-row .btm-cont .btm-display {

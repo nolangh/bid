@@ -10,14 +10,14 @@ body {
 
 .top-row {
 	height: 50vh;
-	background: coral;
+	background: white;
 
 	.left-cont {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		background: lightblue;
+		background: white;
 	}
 
 	.right-cont {
@@ -25,20 +25,20 @@ body {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		background: lightyellow;
+		background: white;
 	}
 }
 
 .btm-row {
 	height: 50vh;
-	background: coral;
+	background: white;
 
 	.btm-cont {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		background: black;
+		background: white;
 
 		.btm-display {
 			display: flex;

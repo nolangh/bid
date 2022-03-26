@@ -14,7 +14,7 @@ rightSubmitButton.addEventListener("click", addRightBid);
 
 function addLeftBid() {
 	const leftBidDivH1 = document.createElement("h1");
-	leftBidDivH1.innertext = leftValue.value;
+	leftBidDivH1.innerText = leftValue.value;
 	leftBidDivH1.classList.add("left-bid-h1");
 	leftBtmDiv.appendChild(leftBidDivH1);
 	saveLeft(leftValue.value);
