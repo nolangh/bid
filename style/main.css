@@ -1,136 +1,103 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   overflow: hidden;
+  background-color: lightsalmon;
 }
 
 .top-row {
   height: 50vh;
   background: white;
 }
-
 .top-row .left-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: salmon;
 }
-
+.top-row .left-cont .left-input {
+  width: 10em;
+  border-radius: 2em;
+  border: none;
+  text-align: center;
+}
+.top-row .left-cont .left-button {
+  width: 6em;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #fa8072;
+  color: lightseagreen;
+  border: none;
+}
 .top-row .right-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #fa8072;
+}
+.top-row .right-cont .right-input {
+  width: 10em;
+  border-radius: 2em;
+  border: none;
+  text-align: center;
+}
+.top-row .right-cont .right-button {
+  width: 6em;
+  background-color: salmon;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: lightseagreen;
+  border: none;
 }
 
 .btm-row {
   height: 50vh;
-  background: white;
+  background: salmon;
 }
-
 .btm-row .btm-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: salmon;
 }
-
 .btm-row .btm-cont .btm-display {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  background: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: salmon;
   width: 75%;
   height: 75%;
 }
-
 .btm-row .btm-cont .btm-display .left-bid-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 45%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   text-align: right;
-  background: white;
+  background-color: none;
 }
-
 .btm-row .btm-cont .btm-display .left-bid-div .left-bid-h1 {
   color: lightseagreen;
   font-size: 2rem;
 }
-
 .btm-row .btm-cont .btm-display .right-bid-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 45%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   text-align: left;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  background: white;
+  align-items: flex-start;
+  background: salmon;
 }
-
 .btm-row .btm-cont .btm-display .right-bid-div .right-bid-h1 {
   color: lightseagreen;
   font-size: 2rem;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

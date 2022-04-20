@@ -6,6 +6,7 @@
 
 body {
 	overflow: hidden;
+	background-color: lightsalmon;
 }
 
 .top-row {
@@ -17,7 +18,23 @@ body {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		background: white;
+		background: salmon;
+
+		.left-input {
+			width: 10em;
+			border-radius: 2em;
+			border: none;
+			text-align: center;
+		}
+
+		.left-button {
+			width: 6em;
+			font-weight: bold;
+			font-size: 1.5em;
+			background-color: #fa8072;
+			color: lightseagreen;
+			border: none;
+		}
 	}
 
 	.right-cont {
@@ -25,27 +42,43 @@ body {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		background: white;
+		background: #fa8072;
+
+		.right-input {
+			width: 10em;
+			border-radius: 2em;
+			border: none;
+			text-align: center;
+		}
+
+		.right-button {
+			width: 6em;
+			background-color: salmon;
+			font-weight: bold;
+			font-size: 1.5em;
+			color: lightseagreen;
+			border: none;
+		}
 	}
 }
 
 .btm-row {
 	height: 50vh;
-	background: white;
+	background: salmon;
 
 	.btm-cont {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		background: white;
+		background: salmon;
 
 		.btm-display {
 			display: flex;
 			flex-direction: row;
 			align-items: center;
 			justify-content: space-evenly;
-			background: white;
+			background-color: salmon;
 			width: 75%;
 			height: 75%;
 
@@ -55,7 +88,7 @@ body {
 				flex-direction: column;
 				justify-content: center;
 				text-align: right;
-				background: white;
+				background-color: none;
 
 				.left-bid-h1 {
 					color: lightseagreen;
@@ -70,7 +103,7 @@ body {
 				justify-content: center;
 				text-align: left;
 				align-items: flex-start;
-				background: white;
+				background: salmon;
 
 				.right-bid-h1 {
 					color: lightseagreen;
